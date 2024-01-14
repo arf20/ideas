@@ -31,4 +31,8 @@ make linux kernel modules, like a funny block device driver or smth
 	write a block device driver for it
 	write a fs driver for BRFS
 
+take BatchDrake's SGDP implementation and make it a dynamic library and package it
+
+make a floppy drive controller with an arduino with a serial interface and make a linux block device driver for it
+
 make a modern portfolio website, cv.arf20.com, attractive to companies
