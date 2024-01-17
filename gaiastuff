@@ -1,0 +1,54 @@
+2x Sun Ultra 10
+	UltraSPARC IIi
+	tiene VGA y VGA raro
+	puerto de teclado propietario Sun Tipo 5
+	sin teclado no saca video, modo consola
+	consola puerto serie 'A' DB-25
+	NVRAM probablemente muerta?
+
+Sun Enterprise 250 "servidor torre gordo"
+	2x UltraSPARC II
+	sin salida de video
+	dos puertos serie 'A' 'B' DB-25
+	supongo que consola en A
+	puerto de teclado propietario Sun Tipo 5
+
+TOSHIBA T6400DX
+	486DX con 4MB :D
+	lo tipico
+	pantalla (plasma?) muerta, saca video por VGA ok
+	CMOS muerta
+	disquetera estandar rota(?)
+	disco asumido muerto
+
+SunBlade 100 "parece muyyyy PC"
+	UltraSPARC IIe
+	tiene una grafica VGA PCIx "Intense3D" chipset XILINX Spartan con pegatina de Sun, de fabrica lol
+	boton de arranque no hace nada
+	fuente ok(?)
+	NVRAM probablemente muerta?, modulo de esos integrado
+	pila CMOS aparte
+
+Sun Netra T1 105
+	UltraSPARC IIi
+	no salida de video
+	puerto consola RJ45 propietario Sun (of course) diferente a Cisco
+	
+IBM eServer xSeries 232 "otro server gordote"
+	Pentium III :/
+	
+	
+SGI Indy
+
+SGI O2
+
+Monitor VGA coaxial raro (DB13W3)
+	
+Falta encontrar teclado Sun Tipo 5 y raton Sun Tipo 5
+
+ideas:
+	repo https://ftp.deu.edu.tr/pub/Solaris/sunfreeware/
+	IRC
+	netscape
+	apache2 server
+
