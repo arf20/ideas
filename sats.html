@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			th {
+				text-align: left;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<table>
+			<tr><th>SAT</th><th>SIG</th><th>FREQ</th><th>POL</th><th>SYM RATE</th><th>MOD</th><th>ORBIT</th><th>NOTES</th></tr>
+			<tr><td><h3>L BAND</h3></td></tr>
+			<tr><td><h4>METEO</h4></td></tr>
+			<tr><td>NOAA-15</td><td>HRPT</td><td>1702.5</td><td>LHCP</td><td>665000</td><td>PSK</td><td>LEO</td><td>WEAK, OMNI + DEGRADED TX (HELIX BROKEN)</td></tr>
+			<tr><td>NOAA-18</td><td>HRPT</td><td>1707</td><td>RHCP</td><td>665000</td><td>PSK</td><td>LEO</td><td></tr>
+			<tr><td>NOAA-19</td><td>HRPT</td><td>1698</td><td>RHCP</td><td>665000</td><td>PSK</td><td>LEO</td><td></tr>
+			<tr><td>METEOR-M No.</td><td>AHRPT</td><td>1700</td><td>RHCP</td><td>3000000</td><td>PSK</td><td>LEO</td><td>WONKY, ANTENNA DAMAGE DUE DEBRIS</td></tr>
+			<tr><td>METEOR-M No.2-2</td><td>AHRPT</td><td>1700</td><td>RHCP</td><td>3000000</td><td>PSK</td><td>LEO</td><td>ONLY DAYLIGHT</td></tr>
+			<tr><td>METOP-A</td><td>AHRPT</td><td>1701.3</td><td>RHCP</td><td>3500000</td><td>PSK</td><td>LEO</td><td>DEORBITED</td></tr>
+			<tr><td>METOP-B</td><td>AHRPT</td><td>1701.3</td><td>RHCP</td><td>3500000</td><td>PSK</td><td>LEO</td><td></tr>
+			<tr><td>METOP-C</td><td>AHRPT</td><td>1707</td><td>RHCP</td><td>3500000</td><td>PSK</td><td>LEO</td><td></tr>
+			<tr><td>FENGYUN-3A</td><td>AHRPT</td><td>1704.5</td><td>RHCP</td><td>4200000</td><td>PSK</td><td>LEO</td><td>DEAD</td><td></tr>
+			<tr><td>FENGYUN-3B</td><td>AHRPT</td><td>1704.5</td><td>RHCP</td><td>4200000</td><td>PSK</td><td>LEO</td><td>MAINTENANCE UNTIL JUNE 2022 / DEAD?</td></tr>
+			<tr><td>FENGYUN-3C</td><td>AHRPT</td><td>1701.4</td><td>RHCP</td><td>4200000</td><td>PSK</td><td>LEO</td><td>ONLY OVER CHINA / DEAD?</td></tr>
+			<tr><td>FENGYUN-3D</td><td></td><td></td><td></td><td></td><td></td><td>LEO</td><td>Ku band AHRPT / DEAD?</td></tr>
+			<tr><td>FENGYUN-3E</td><td></td><td></td><td></td><td></td><td></td><td>LEO</td><td>NO AHRPT?</td></tr>
+			<tr><td>Elektro-L2/3</td><td>H/LRIT</td><td>1691</td><td>RHCP</td><td>64000/128000</td><td></td><td>GEO</td><td>HRIT PROPRIETARY?</td></tr>
+			<tr><td>METEOSAT-8</td></td><td></td><td></td><td></td><td></td><td></td><td>GEO</td><td>MOVED INDIAN OCEAN</td></tr>
+			<tr><td>METEOSAT-9</td></td><td></td><td></td><td></td><td></td><td></td><td>GEO</td><td>MOVED INDIAN OCAN</td></tr>
+			<tr><td>METEOSAT-10</td><td>H/LRIT</td><td>1695</td><td>RHCP</td><td>1000000</td><td></td><td>GEO</td></tr>
+			<tr><td>METEOSAT-11</td><td>H/LRIT</td><td>1695</td><td>RHCP</td><td>1000000</td><td></td><td>GEO</td></tr>
+			<tr><td>GOES-13</td><td>PDR</td><td>1685.7</td><td>L</td><td>2110000</td><td></td><td>GEO</td><td>INACTIVE EOL</td></tr>
+			<tr><td>GOES-16</td><td>HRIT</td><td>1694.1</td><td>LV</td>	<td>927000</td><td>BPSK</td><td>GEO</td><td>OUT OF SIGHT</td></tr>
+			<tr><td>GOES-17</td><td>HRIT</td><td>1694.1</td><td>LV</td>	<td>927000</td><td>BPSK</td><td>GEO</td><td>OUT OF SIGHT</td></tr>
+			<tr><td><h4>COMM</h4></td></tr>
+			<tr><td>INMARSAT STD-C*</td><td>MES</td><td>1518-1559</td><td></td><td></td><td></td><td>GEO</td><td>3-F1 RETIRED?</td></tr>
+			<tr><td>IRIDIUM *</td><td></td><td>1616-1625.5</td><td></td>	<td>25000 (50kbps)</td><td>DEQPSK</td>	<td>LEO</td><td></td></tr>
+			<tr><td><h4>GNSS</h4></td></tr>
+			<tr><td>GPS</td><td>L1</td><td>1575.42</td><td></td><td></td><td>BPSK</td><td>GEO</td><td></td></tr>
+			<tr><td>Galileo</td><td>E1</td><td>1575.42</td><td></td><td></td><td>BPSK</td><td>GEO</td><td></td></tr>
+			<tr><td>GLONASS</td><td>G1</td><td>1589-1605</td><td></td><td></td><td></td><td>GEO</td><td></td></tr>
+			<tr><td>BeiDou BDS-2/3</td><td>B1C</td><td>1575.42</td><td></td><td></td><td></td><td>GEO</td><td></td></tr>
+			<tr><td><h3>S BAND</h3></td></tr>
+			<tr><td><h4>HIRES IMG / METEO</h4></td></tr>
+			<tr><td>PROBA-1</td><td>HRC</td><td>2235</td><td></td><td>2048000</td><td>BPSK</td><td>LEO</td><td></td></tr>
+			<tr><td>PROBA-2</td><td>HRC</td><td>2235</td><td></td><td>2048000</td><td>BPSK</td><td>LEO</td><td></td></tr>
+			<tr><td><h3>X BAND</h3></td></tr>
+			<tr><td><h4>AMATEUR</h4></td></tr>
+			<tr><td>QO-100</td><td>-</td><td>10489</td><td></td><td></td><td>CW/DIGI/SSB</td><td>GEO</td><td>DOWNLINK</td></tr>
+		</table>
+	</body>
+
+</html>
+
