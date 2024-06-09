@@ -25,12 +25,14 @@
 	make a notepad lol
 - 3D game (or you can't do that) in OpenGL? (pain) first map, then movement, then weapons, then enemies
 
-- make a motherfucking CPU architecture, develop a two pass assembler for it, and a "simulator" in C
+- *make a motherfucking CPU architecture, develop a two pass assembler for it, and a "simulator" in C
+  - arfmipsas (MIPS...)
 - develop a custom shitty language for it and a compiler
 - make linux kernel modules, like a funny block device driver or smth
   - make a serial attached storage device (ttyUSB) with an arduino or raspi or smth
   - write a block device driver for it
   - write a fs driver for BRFS
+- visualize fractional integration and differentiation
 
 - take BatchDrake's SGDP implementation and make it a dynamic library and package it
 
@@ -55,4 +57,3 @@
   - cathode ray tube
   - x ray tube
   - fusor
-
