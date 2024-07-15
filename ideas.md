@@ -38,6 +38,8 @@
 
 - make a floppy drive controller with an arduino with a serial interface and make a linux block device driver for it
 
+- LAN chat app with autodiscovery
+
 ## HV
 - spark gap transmitter
 - spark gap tesla coil
