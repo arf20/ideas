@@ -42,6 +42,8 @@
 
 - simple typesetting language and application for text paged text output (ESC/P output?)
 
+- php arfchat client
+
 ## HV
 - spark gap transmitter
 - spark gap tesla coil
