@@ -40,9 +40,11 @@
 
 - \*LAN chat app with autodiscovery
 
-- simple typesetting language and application for text paged text output (ESC/P output?)
+- \*simple typesetting language and application for text paged text output (ESC/P output?)
 
 - php arfchat client
+
+- electric grid sim: simulate syncronous generator inertia and push back autosync
 
 ## HV
 - spark gap transmitter
