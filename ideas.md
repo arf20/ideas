@@ -46,6 +46,8 @@
 
 - electric grid sim: simulate syncronous generator inertia and push back autosync
 
+- mandelbrot or julia set in fragment shader
+
 ## HV
 - spark gap transmitter
 - spark gap tesla coil
