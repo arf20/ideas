@@ -3,7 +3,7 @@
 ## software
 - develop ww1game
 - \*make arftracksat in moderngl and make a nice Qt interface for it
-- retake arfOS (kernel), make a shell, write drivers -> most importantly figure out paging, allocation, protection, processes, filesystem and stuff
+- ~retake~ rewrite arfOS (kernel), make a shell, write drivers -> most importantly figure out paging, allocation, protection, processes, filesystem and stuff
 - rewrite my Z80 assembler, generate object files in some way, and make a separate linker
 - make a smol C compiler, with assembly output, for x86 and Z80
 - make Z80 simulator with hardware modules and cool graphics
@@ -12,13 +12,13 @@
   - file serving and CGI too
   - basic auth
 - learn DSP stuff, which really is just doing stuff to complex arrays in oops; like PAL, FM, AM decoders etc
-- SigDigger plugin- 
+- SigDigger plugin-
 - \*arf file transfer server and client, ftp style, with gzip compression and TLS encryption
 - arftalk, a chat that actually doesnt suck, super secure (TLS 1.3 and PGP) with multiple channel support (url style)
 - WAV player- 
 - video player with libavcodec or LibVLC, to SDL2- 
 - video streaming TCP- 
-- \*minesweeper in every graphic API i know (interchangable dynamic backen- ds)
+- \*minesweeper in every graphic API i know (interchangable dynamic backends)
 - play with X11 Xlib stuff
 	try doing a wm
 	do a sort of remote control
@@ -33,20 +33,17 @@
   - write a block device driver for it
   - write a fs driver for BRFS
 - visualize fractional integration and differentiation
-
 - take BatchDrake's SGDP implementation and make it a dynamic library and package it
-
 - make a floppy drive controller with an arduino with a serial interface and make a linux block device driver for it
-
 - \*LAN chat app with autodiscovery
-
 - \*simple typesetting language and application for text paged text output (ESC/P output?)
-
-- php arfchat client
-
+- \*php arfchat client
 - electric grid sim: simulate syncronous generator inertia and push back autosync
-
 - mandelbrot or julia set in fragment shader
+- website down crazy alarm siren
+- TFG: telephone trunk routing protocol (MP-BGP E.164 implementation, asteirsk API)
+- TFM: DMR-VoIP link (MMDVM/WPSD+asterisk)
+- PhD: ???
 
 ## HV
 - spark gap transmitter
@@ -67,3 +64,4 @@
   - cathode ray tube
   - x ray tube
   - fusor
+
