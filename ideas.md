@@ -40,9 +40,10 @@
 - electric grid sim: simulate syncronous generator inertia and push back autosync
 - mandelbrot or julia set in fragment shader
 - website down crazy alarm siren
-- TFG: telephone trunk routing protocol (MP-BGP E.164 implementation, asteirsk API)
-- TFM: DMR-VoIP link (MMDVM/WPSD+asterisk)
-- PhD: ???
+- tripd
+- DMR-telephony link (MMDVM/WPSD+asterisk)
+- linux interface to packet radio modem thing with custom PHY
+- UML design software
 
 ## HV
 - spark gap transmitter
