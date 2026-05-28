@@ -44,6 +44,12 @@
 - DMR-telephony link (MMDVM/WPSD+asterisk)
 - linux interface to packet radio modem thing with custom PHY
 - UML design software
+- cstims in go
+- power grid sim game
+- centrally planned economy sim game
+
+## systems
+- suckless distro with sinit
 
 ## HV
 - spark gap transmitter
